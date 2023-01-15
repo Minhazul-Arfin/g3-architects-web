@@ -437,4 +437,53 @@ footer{
         align-content: center;
         align-items: center;
     }
+    .quick-list-container{
+        margin-left: 5%;
+    }
+    header{
+        height: 800px;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .quick-list-container{
+        margin: 0%;
+        padding-left: 2%;
+        padding-right: 10%;
+    }
+    .feature, .facts, .what-i-do-sec{
+        margin-top: 50%;
+        margin-left: 5%;
+    }
+    .box{
+        width: 20%;
+        height: 20%;
+    }
+    
+    .sponsor-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2%;
+    }
+    .sponsor-content .paragraph{
+        text-align: left;
+        margin-left: 1%;
+        width: 22%;
+    }
+    .sponsors-icon img{
+        margin-bottom: 2%;
+        margin-left: 5px;
+    }
+    footer{
+        width: 60%;
+        height: 60%;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 25%;
+    }
+    .footer-para{
+        padding: 10%;
+        text-align: left;
+    }
 }
