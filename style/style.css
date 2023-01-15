@@ -297,11 +297,11 @@ features
     border-radius: 10%;
     border: 4px solid rgb(255, 255, 255);
     width: 70%;
-    transition: width 3s, height 3s;
+    transition: width 3s, height 3s, background-color 2s;
 }
 .what-i-do-sec:hover{
     width: 1200px;
-    height: 500px;
+    height: 300px;
     background-color: beige;
 }
 
