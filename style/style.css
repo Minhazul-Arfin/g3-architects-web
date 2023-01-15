@@ -89,3 +89,41 @@ header{
     height: 600px;
     border-radius: 8px;
  }
+
+ /* ----------
+ quick list 
+ ------------*/
+ .quick-list-container{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 80px;
+    
+ }
+ .quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 0.20fr);
+    gap: 10px;
+ }
+
+.quick-list-container .paragraph{
+    text-align: left;
+}
+
+.quick-list-container .explore-btn{
+    margin-left: 0px;
+}
+.ql-head{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.quick-list-contents{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 100px;
+}
