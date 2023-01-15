@@ -411,3 +411,30 @@ footer{
     color: #424242;
     padding-top: 25px;
 }
+
+
+/*=============== 
+    Media Query 
+================*/
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .nav-elements ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-img img, .architect-img img{
+        display: none;
+    }
+    .quick-list-img, .quick-list-container, .feature, .fact-box-container, .bonus-section, .sponsor, .sponsor-content, .sponsors-icon{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        align-items: center;
+    }
+}
