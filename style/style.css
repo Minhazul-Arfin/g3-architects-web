@@ -209,3 +209,66 @@ features
     text-align: center;
     
 }
+
+/*-------------
+ facts 
+ ------------*/
+ .facts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+ }
+
+ .facts .feature-header{
+    margin-top: 80px;
+    margin-bottom: 0px;
+ }
+
+ .facts .paragraph{
+    text-align: left;
+    margin-bottom: 50px;
+ }
+
+ /*------------------
+ fact box 
+ -------------------*/
+ .fact-box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 0.01fr);
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .fact-box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 80px;
+ }
+
+
+ .number{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ .box-para{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 5px;
+ }
