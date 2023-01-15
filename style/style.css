@@ -67,7 +67,7 @@ header{
     margin-bottom: 30px;
  }
 
- .explore-btn{
+ .explore-btn, .btn-10{
     width: 180px;
     height: 64px;
     background-color: #ff900e;
@@ -97,12 +97,14 @@ header{
     display: flex;
     margin-left: 200px;
     margin-top: 80px;
+    margin-left: 200px;
     
  }
  .quick-list-img{
     display: grid;
     grid-template-columns: repeat(2, 0.20fr);
     gap: 10px;
+    margin-right: 40px;
  }
 
 .quick-list-container .paragraph{
@@ -126,4 +128,84 @@ header{
     flex-direction: column;
     margin-left: 50px;
     margin-top: 100px;
+}
+
+/* ------------
+features 
+-------------*/
+.feature{
+    margin: 80px;
+    display: flex;
+    width: 1200px;
+    height: 1059px;
+    left: 240px;
+    top: 2245px;
+    margin-left: 200px;
+        
+}
+.feature-section{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1059px;
+    left: 240px;
+    top: 2245px;
+    margin-right: 80px;
+    }
+
+.feature-container{
+    display: flex;
+    flex-direction: column;
+}
+.fh-div{
+    display: flex;
+    /* align-items: center; */
+}
+.feature-container .paragraph{
+    text-align: left;
+}
+.vl{
+    border-left: 6px solid #FF900E;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 80px;
+}
+
+.feature-header{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #131313;
+}
+
+.box{
+    width: 450px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.box .paragraph{
+    text-align: left;
+}
+.box-head{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.btn-10{
+    width: 320px;
+    height: 160px;
+    left: 880px;
+    top: 3104px;
+    text-align: center;
+    
 }
