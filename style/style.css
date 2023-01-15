@@ -6,7 +6,7 @@
 HEADER STYLE 
 ----------------*/
 header{
-    height: 1322px;
+    height: 1200px;
     background: rgba(255, 144, 14, 0.1);
     background-size: cover;
     margin-top: none;
@@ -304,4 +304,24 @@ features
     align-items: center;
     margin-left: 150px;
     margin-top: 50px;
+}
+
+/*-----------------------
+footer 
+------------------------*/
+footer{
+    width: 1300px;
+    height: 80px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 100px 200px;
+}
+
+.footer-para{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    padding-top: 25px;
 }
